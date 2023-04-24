@@ -15,11 +15,13 @@ export const MainContentDiv = styled.div`
 `;
 
 const Container = css`
+  padding: 0 0.875rem;
   width: 100%;
   @media (min-width: 640px) {
     max-width: 640px;
   }
   @media (min-width: 768px) {
+    padding: 0 1.25rem;
     max-width: 768px;
   }
   @media (min-width: 1024px) {
@@ -42,14 +44,16 @@ export const FooterFooter = styled.footer`
 `;
 
 export const FooterDiv = styled.div`
-  padding: 0.875rem 1.25rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
   margin: 0 auto;
   display: flex;
   align-items: center;
   flex-direction: column;
   gap: 0.5rem;
   @media (min-width: 768px) {
-    padding: 1.25rem;
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
     flex-direction: row;
   }
   ${Container}
@@ -77,7 +81,7 @@ export const FooterA = styled.a`
   cursor: pointer;
 `;
 
-export const NavbarNav = styled.nav`
+export const NavbarWrapper = styled.div`
   position: fixed;
   display: block;
   left: 0%;
@@ -92,16 +96,98 @@ export const NavbarNav = styled.nav`
 
 export const NavbarDiv = styled.div`
   margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
   ${Container}
 `;
 
 export const NavbarBrandA = styled.a`
-  position: relative;
-  float: left;
   text-decoration: none;
 `;
 
 export const NavbarBrandImg = styled(Image)`
-  width: 11rem;
+  width: 9rem;
   height: auto;
+
+  @media (min-width: 768px) {
+    width: 11rem;
+  }
+`;
+
+export const NavbarNav = styled.nav`
+  display: flex;
+  align-items: center;
+`;
+
+export const NavLinkA = styled.a`
+  padding: 0rem 2.5rem 0rem 1rem;
+  color: #fff;
+  font-size: 1.125rem;
+  line-height: 1.3;
+  font-weight: 500;
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  text-decoration: none;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+
+  :hover {
+    color: #ffc919;
+  }
+`;
+
+export const CTADiv = styled.div`
+  margin-left: 1rem;
+`;
+
+export const CTAA = styled.a`
+  max-width: none;
+  min-width: auto;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  max-height: 48px;
+  max-width: 180px;
+  min-height: 48px;
+  min-width: auto;
+  padding: 0rem 1.4rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: 1px solid #FFA600;
+  border-radius: 0.5rem;
+  box-shadow: inset 0 0 8px 4px hsla(39, 100%, 50%, 0.2),
+    inset 0 0 8px 4px hsla(39, 100%, 50%, 0.2);
+  color: #fff;
+  font-size: 1.125rem;
+  line-height: 1.6;
+  text-decoration: none;
+  :hover {
+    background-color: #FFA600;
+  }
+`;
+
+export const CTAInnerDiv = styled.div`
+  position: relative;
+  z-index: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 `;
