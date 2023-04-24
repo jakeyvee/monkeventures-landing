@@ -35,9 +35,6 @@ const Container = css`
   }
 `;
 
-// <footer className="text-gray-600 body-font"  style={{ backgroundColor: "rgba(30,30,38)" }}>
-// <div className="container px-5 py-3 lg:py-5 mx-auto flex items-center sm:flex-row flex-col">
-
 export const FooterFooter = styled.footer`
   color: #fff;
   background-color: rgba(30, 30, 38);
@@ -124,7 +121,7 @@ export const NavLinkA = styled.a`
   color: #fff;
   font-size: 1.125rem;
   line-height: 1.3;
-  font-weight: 500;
+  font-weight: 600;
   position: relative;
   display: inline-block;
   vertical-align: top;
@@ -166,16 +163,17 @@ export const CTAA = styled.a`
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  border: 1px solid #FFA600;
+  border: 1px solid #ffa600;
   border-radius: 0.5rem;
   box-shadow: inset 0 0 8px 4px hsla(39, 100%, 50%, 0.2),
     inset 0 0 8px 4px hsla(39, 100%, 50%, 0.2);
-  color: #fff;
+  color: #ffa600;
   font-size: 1.125rem;
   line-height: 1.6;
   text-decoration: none;
   :hover {
-    background-color: #FFA600;
+    color: #fff;
+    background-color: #ffa600;
   }
 `;
 
