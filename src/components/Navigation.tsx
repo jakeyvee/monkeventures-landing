@@ -37,7 +37,7 @@ export const Navigation = () => {
           <CTADiv>
             <CTAA href="https://app.monkeventures.io">
               <CTAInnerDiv>
-                Launch App
+                Visit Portal
               </CTAInnerDiv>
             </CTAA>
           </CTADiv>
