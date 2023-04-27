@@ -125,3 +125,7 @@ a {
   font-weight: 800;
   src: url('/fonts/monke_font_black.woff2') format('woff2');
 }
+
+ul {
+  list-style-position: inside;
+}

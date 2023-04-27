@@ -1,0 +1,39 @@
+{
+  "brands": [
+    {
+      "id": 1,
+      "brandName": "LODA",
+      "brandImg": "icn-LODA.svg"
+    },
+    {
+      "id": 2,
+      "brandName": "AI ARENA",
+      "brandImg": "icn-ARENA.svg"
+    },
+    {
+      "id": 3,
+      "brandName": "ZAPPER",
+      "brandImg": "icn-zapper.png"
+    },
+    {
+      "id": 4,
+      "brandName": "SZNS",
+      "brandImg": "icn-SZNS.svg"
+    },
+    {
+      "id": 5,
+      "brandName": "LODA",
+      "brandImg": "icn-LODA.svg"
+    },
+    {
+      "id": 6,
+      "brandName": "AI ARENA",
+      "brandImg": "icn-ARENA.svg"
+    },
+    {
+      "id": 7,
+      "brandName": "ZAPPER",
+      "brandImg": "icn-zapper.png"
+    }
+  ]
+}

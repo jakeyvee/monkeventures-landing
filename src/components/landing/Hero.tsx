@@ -9,7 +9,6 @@ import {
   HeroWrapper,
 } from "@/styles/landing/hero";
 import heroImg from "@/assets/tree.png";
-import Image from "next/image";
 
 export const Hero = () => {
   return (
