@@ -14,6 +14,7 @@ const Portfolio = (props: PortfolioInt) => {
       <BrandsGridDiv>
         {brands.map((brand, idx) => (
           <Brand
+            key={idx}
             brandImg={`/portfolio/${brand.brandImg}`}
             brandName={brand.brandName}
           />
